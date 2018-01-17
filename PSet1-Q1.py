@@ -12,3 +12,4 @@ for letter in s:
         count+=1
 print("Number of vowels: "+ str(count))
 
+# Passes All test cases (10/10)
