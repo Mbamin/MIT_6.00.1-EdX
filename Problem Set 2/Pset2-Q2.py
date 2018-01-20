@@ -36,3 +36,4 @@ while 12*x < balance+interest:
         new_balance = (new_balance-x)*(1+mir)
         interest += interests
 print("Lowest Payment: " +str(x))
+# Passes All test cases (15/15)
