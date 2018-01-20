@@ -35,4 +35,4 @@ while 12*x < balance+interest:
         interests = (new_balance-x)*mir
         new_balance = (new_balance-x)*(1+mir)
         interest += interests
-print("Lowest Payment: " + str(x))
+print("Lowest Payment: " +str(x))
