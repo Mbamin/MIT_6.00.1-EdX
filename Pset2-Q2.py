@@ -26,7 +26,6 @@ x=0
 mir=annualInterestRate/12.0
 interest=0.0
 
-
 while 12*x < balance+interest:
     new_balance=balance
     interest=0.0
@@ -36,3 +35,4 @@ while 12*x < balance+interest:
         interests = (new_balance-x)*mir
         new_balance = (new_balance-x)*(1+mir)
         interest += interests
+print("Lowest Payment: " + str(x))
